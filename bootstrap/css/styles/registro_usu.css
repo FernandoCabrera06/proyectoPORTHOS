@@ -1,0 +1,15 @@
+input:focus:invalid, select:focus:invalid  {
+border: 1px solid red;
+}
+div[id="resultado"]{
+float: left;
+margin-left: -0.6%;
+margin-top: 0.5%;
+width: 25%;
+}
+.negacion{
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 14px;
+
+}

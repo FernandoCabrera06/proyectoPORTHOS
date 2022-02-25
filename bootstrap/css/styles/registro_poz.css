@@ -1,0 +1,14 @@
+input:focus:invalid, select:focus:invalid  {
+    border: 1px solid red;
+  }
+div[id="resultado"]{
+float: left;
+margin-left: -1.5%;
+margin-top: 0.5%;
+width: 20%;
+}
+img[id="gif"]{
+  float: left;
+margin-left: -1.5%;
+margin-top: 0.2%;
+}

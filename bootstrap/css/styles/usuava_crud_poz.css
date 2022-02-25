@@ -1,0 +1,153 @@
+h2{
+   text-align: center;
+}
+.menu{
+   width: 100%;
+   height: 3.15em;
+   background: #000;
+   list-style:none;
+   margin: 0;
+   padding: 0;
+   float: left;
+}
+
+.dividir{
+    clear: both;
+    float: right;
+  }
+
+.menu li{
+    display:inline-block;
+}
+
+ .menu li a[class="IconObs"]{
+    padding: 0.845em 3em;
+    display: inline-block;
+    color:#fff;
+    text-decoration:none;
+    background: url(../../icons/Icon_menu/obs_B.png) no-repeat #000 0.8em 0.3em;
+    padding-left: 3.5em;
+    padding-right: 2em;
+    
+ 
+ }
+ 
+ .menu li a[class="IconAju"]{
+     padding: 0.845em 3em;
+     display: inline-block;
+     color:#fff;
+     text-decoration:none;
+     background: url(../../icons/Icon_menu/aju_B.png) no-repeat #000 1.3em 0.3em;
+     padding-left: 4em;
+     padding-right: 1em;
+  
+  }
+ 
+  .menu li a[class="IconPoz"]{
+     padding: 0.845em 3em;
+     display: inline-block;
+     color:#fff;
+     text-decoration:none;
+     background: url(../../icons/Icon_menu/poz_B.png) no-repeat #000 1.3em 0.3em;
+     padding-left: 4em;
+     padding-right: 2em;
+  
+  }
+ 
+  .menu li a[class="IconUsu"]{
+   padding: 0.845em 3em;
+   display: inline-block;
+   color:#000;
+   text-decoration:none;
+   background: url(../../icons/Icon_menu/usu.png) no-repeat #ccc 1.3em 0.3em;
+   padding-left: 4em;
+   padding-right: 2em;
+  
+  }
+
+ .menu li a[class="IconSes"]{
+    padding: 0.845em 3em;
+    display: inline-block;
+    color:#fff;
+    text-decoration:none;
+    background: url(../../icons/Icon_menu/ses_B.png) no-repeat #000 1.3em 0.3em;
+    padding-left: 4em;
+    padding-right: 2em;
+ 
+ }
+
+
+ .menu li a[class="IconObs"]:hover{
+    padding: 0.845em 3em;
+    display: inline-block;
+    color:#000;
+    text-decoration:none;
+    background: url(../../icons/Icon_menu/obs.png) no-repeat #ccc 0.8em 0.3em;
+    padding-left: 3.5em;
+    padding-right: 2em;
+ 
+ }
+ 
+ .menu li a[class="IconAju"]:hover{
+     padding: 0.845em 3em;
+     display: inline-block;
+     color:#000;
+     text-decoration:none;
+     background: url(../../icons/Icon_menu/aju.png) no-repeat #ccc 1.3em 0.3em;
+     padding-left: 4em;
+     padding-right: 1em;
+  }
+ 
+  .menu li a[class="IconPoz"]:hover{
+     padding: 0.845em 3em;
+     display: inline-block;
+     color:#000;
+     text-decoration:none;
+     background: url(../../icons/Icon_menu/poz.png) no-repeat #ccc 1.3em 0.3em;
+     padding-left: 4em;
+     padding-right: 2em;;
+  
+  }
+ 
+  .menu li a[class="IconUsu"]:hover{
+     padding: 0.845em 3em;
+     display: inline-block;
+     color:#000;
+     text-decoration:none;
+     background: url(../../icons/Icon_menu/usu.png) no-repeat #ccc 1.3em 0.3em;
+     padding-left: 4em;
+     padding-right: 2em;
+  }
+
+ .menu li a[class="IconSes"]:hover{
+    padding: 0.845em 3em;
+    display: inline-block;
+    color:#000;
+    text-decoration:none;
+    background: url(../../icons/Icon_menu/ses.png) no-repeat #ccc 1.3em 0.3em;
+    padding-left: 4em;
+    padding-right: 2em;
+ 
+ }
+
+.menu li a[href="../in_out/logout.php"]{
+    padding: 0.60em 1.3em 0.60em 2.5em;
+    display: inline-block;
+    color: #fff;
+    text-decoration:none;
+    border-radius: 0.6em;
+    margin-right:0.27em;
+    margin-top: 0.27em;
+    background: url(../../icons/Icon_menu/cses_B.png) no-repeat #ff0000 0.085em 0.2em;
+    padding-left: 2.8em;
+    padding-right: 1em;
+}
+
+
+.menu li a[href="../in_out/logout.php"]:hover{
+    color:#000;
+    border-radius: 0.6em;
+    background: url(../../icons/Icon_menu/cses.png) no-repeat #ff6262 0.085em 0.2em;
+    padding-left: 2.8em;
+    padding-right: 1em;
+}
